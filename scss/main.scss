@@ -11,7 +11,7 @@
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #fff;
+  background-color: #fff;
 }
 
 a {
@@ -140,11 +140,11 @@ img {
         padding: 3rem;
 
         &:nth-child(odd) {
-          background: $light-color;
+          background-color: $light-color;
         }
 
         &:nth-child(even) {
-          background: $medium-color;
+          background-color: $medium-color;
         }
       }
     }
@@ -159,8 +159,8 @@ img {
 
       &-icon {
         border-radius: 50%;
-        background: $dark-color;
-        color: #fff;
+        background-color: $dark-color;
+        color: set-text-color($dark-color);
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -170,13 +170,14 @@ img {
         transition: all 1s;
 
         &:hover {
-          background: $main-color;
+          background-color: $main-color;
           width: 90px;
           height: 90px;
           line-height: 90px;
 
           .process-step {
-            background: $dark-color;
+            background-color: $dark-color;
+            color: set-text-color($dark-color);
           }
         }
       }
@@ -186,7 +187,8 @@ img {
         top: 0;
         right: 0;
         font-size: 28px;
-        background: $main-color;
+        background-color: $main-color;
+        color: set-text-color($main-color);
         border-radius: 50%;
         height: 15px;
         width: 15px;
@@ -201,7 +203,7 @@ img {
 // Footer
 
 #main-footer {
-  background: $dark-color;
+  background-color: $dark-color;
   color: #fff;
   height: 5rem;
 
@@ -223,7 +225,7 @@ img {
       transition: all 0.5s;
 
       &:hover {
-        background: $main-color;
+        background-color: $main-color;
       }
     }
   }

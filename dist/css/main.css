@@ -22,7 +22,7 @@
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background-color: #ffbc00;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -81,7 +81,7 @@ input[class^="btn btn-"]:hover {
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background-color: #fff; }
 
 a {
   text-decoration: none;
@@ -156,9 +156,9 @@ img {
   #home-b .stats div {
     padding: 3rem; }
     #home-b .stats div:nth-child(odd) {
-      background: #f4f4f4; }
+      background-color: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
-      background: #ccc; }
+      background-color: #ccc; }
 
 #home-c .process {
   display: grid;
@@ -167,7 +167,7 @@ img {
   text-align: center; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #333;
+    background-color: #333;
     color: #fff;
     padding: 2rem;
     width: 70px;
@@ -177,18 +177,20 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background-color: #ffbc00;
       width: 90px;
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #333; }
+        background-color: #333;
+        color: #fff; }
   #home-c .process-step {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
+    background-color: #ffbc00;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -197,7 +199,7 @@ img {
     transition: all 1s; }
 
 #main-footer {
-  background: #333;
+  background-color: #333;
   color: #fff;
   height: 5rem; }
   #main-footer .footer-content {
@@ -216,4 +218,4 @@ img {
       padding: 0.5rem;
       transition: all 0.5s; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background-color: #ffbc00; }
