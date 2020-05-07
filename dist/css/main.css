@@ -219,6 +219,34 @@ img {
     padding: 1rem;
     transition: all 1s; }
 
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: "bio-image bio bio" "award-1 award-2 award-3";
+  grid-gap: 1.2rem; }
+
+#about-a .bio-image {
+  grid-area: bio-image; }
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }
+
+#about-a .award-1 {
+  grid-area: award-1; }
+
+#about-a .award-2 {
+  grid-area: award-2; }
+
+#about-a .award-3 {
+  grid-area: award-3; }
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem; }
+
 #main-footer {
   background-color: #333;
   color: #fff;
