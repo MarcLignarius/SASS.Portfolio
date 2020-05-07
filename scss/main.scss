@@ -95,11 +95,9 @@ img {
     }
   }
 
-  // Header Inner
-
   &-inner {
     background: $bg-image no-repeat 20% 0% / cover;
-    height: 5.5rem;
+    height: 6rem;
     border-bottom: 3px solid $main-color;
   }
 }
