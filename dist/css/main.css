@@ -50,6 +50,22 @@ a[class^="btn btn-"]:hover,
 input[class^="btn btn-"]:hover {
   background-color: #ffbc00; }
 
+.bg-main {
+  background-color: #ffbc00;
+  color: #fff; }
+
+.bg-dark {
+  background-color: #333;
+  color: #fff; }
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background-color: #ccc;
+  color: #000; }
+
 .py-1 {
   padding: 1rem 0; }
 
@@ -136,7 +152,7 @@ img {
 
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 0%/cover;
-  height: 5.5rem;
+  height: 6rem;
   border-bottom: 3px solid #ffbc00; }
 
 #home-a .specials {
