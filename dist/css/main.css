@@ -259,6 +259,13 @@ img {
     text-align: center;
     background-color: #ffbc00; }
 
+#about-c .about-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #about-c .about-logos img {
+    width: 20%; }
+
 #main-footer {
   background-color: #333;
   color: #fff;
