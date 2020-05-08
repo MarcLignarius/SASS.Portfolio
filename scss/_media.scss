@@ -4,6 +4,16 @@
   #header-home {
     height: 30rem;
   }
+
+  #about {
+    &-a {
+      .bio {
+        p {
+          position: static;
+        }
+      }
+    }
+  }
 }
 
 // Smartphones
