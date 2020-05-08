@@ -379,6 +379,12 @@ img {
     height: 100px; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
+  #contact-a .text-fields .name-input,
+  #contact-a .text-fields .subject-input,
+  #contact-a .text-fields .email-input,
+  #contact-a .text-fields .message-input,
+  #contact-a .text-fields .text-input {
+    font-size: 1rem; }
 
 #contact-a button[type="submit"] {
   width: 50%; }

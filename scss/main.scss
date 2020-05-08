@@ -340,6 +340,14 @@ img {
       .text-input {
         padding: 0.5rem 1rem;
       }
+
+      .name-input,
+      .subject-input,
+      .email-input,
+      .message-input,
+      .text-input {
+        font-size: 1rem;
+      }
     }
 
     button[type="submit"] {
