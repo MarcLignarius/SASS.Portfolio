@@ -447,6 +447,18 @@ img {
       padding-bottom: 0; }
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
+  #about-a .about-info {
+    grid-template-areas: "bio-image" "bio" "award-1" "award-2" "award-3"; }
+  #about-c {
+    display: none; }
+  #about-d .testimonials div {
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 1rem; }
+    #about-d .testimonials div:last-child {
+      border: none;
+      padding-bottom: 0; }
+    #about-d .testimonials div p {
+      border: none; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
