@@ -158,3 +158,17 @@
     }
   }
 }
+
+// Landscape
+
+@media (max-height: 580px) {
+  #header-home {
+    .header-content {
+      padding-top: 3rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}

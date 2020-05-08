@@ -479,3 +479,9 @@ img {
       height: 5rem; }
       #main-footer .footer-content .social .fab {
         margin: 0rem 0.5rem; } }
+
+@media (max-height: 580px) {
+  #header-home .header-content {
+    padding-top: 3rem; }
+    #header-home .header-content h1 {
+      font-size: 3rem; } }
