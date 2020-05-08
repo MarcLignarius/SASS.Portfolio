@@ -437,8 +437,12 @@ img {
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
+  #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr; }
+  .items {
+    grid-gap: 1rem;
+    box-shadow: none; }
   #home-a .specials div {
     border-bottom: 1px solid #f4f4f4;
     padding: 1rem 0; }
@@ -459,6 +463,14 @@ img {
       padding-bottom: 0; }
     #about-d .testimonials div p {
       border: none; }
+  #contact-a .text-fields {
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+  #contact-b .contact-info div {
+    padding-bottom: 2rem; }
+    #contact-b .contact-info div:last-child {
+      padding-bottom: 0; }
+  #contact-c h1 {
+    font-size: 2rem; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
