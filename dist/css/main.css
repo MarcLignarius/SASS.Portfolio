@@ -305,7 +305,11 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.8rem; }
+  padding: 0.8rem;
+  position: relative; }
+  #about-a .bio p {
+    position: absolute;
+    top: 40%; }
 
 #about-a .award-1 {
   grid-area: award-1; }

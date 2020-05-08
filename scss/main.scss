@@ -222,6 +222,12 @@ img {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+      position: relative;
+
+      p {
+        position: absolute;
+        top: 40%;
+      }
     }
 
     .award-1 {
