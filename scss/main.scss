@@ -394,4 +394,13 @@ img {
   }
 }
 
+// Thank You
+
+#thanks {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @import "media";
